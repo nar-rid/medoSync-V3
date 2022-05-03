@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedoSync</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section>
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="bg-white">
+      <header>
+        <div class="relative bg-white">
+          <div
+            class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+              <a href="#">
+                <span class="sr-only">Workflow</span>
+                <img class="h-8 w-auto sm:h-14" src="img/logo.png" alt="">
+              </a>
+            </div>
+            <div class="-mr-2 -my-2 md:hidden">
+              <button type="button"
+                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-inset focus:ring-0"
+                aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <!-- Heroicon name: outline/menu -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+            <nav class="hidden md:flex space-x-10">
+
+              <a href="#" class="text-base font-medium text-drkblue hover:text-lghtblue"> HOME </a>
+
+              <a href="#" class="text-base font-medium text-drkblue hover:text-lghtblue"> PRODUCT </a>
+
+              <a href="#" class="text-base font-medium text-drkblue hover:text-lghtblue"> ABOUT US </a>
+            </nav>
+
+            <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+              <!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+
+              <div class="mt-1 relative rounded-md shadow-sm">
+                <input type="text" name="account-number" id="account-number"
+                  class="focus:ring-0 focus:border-lghtblue block w-full pr-10 sm:text-sm border-gray-300 rounded-md"
+                  placeholder="Search">
+                <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                  <!-- Heroicon name: solid/search -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </header>
+
+      <main>
+        <div>
+          <!-- Hero card -->
+          <div class="relative">
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+              <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+                <div class="absolute inset-0">
+                  <video autoplay muted loop class="h-full w-full object-cover">
+                    <source src="img/My-Movie-3-1.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="relative px-4 pt-16 sm:px-6 sm:pt-24 lg:pt-32 lg:px-8">
+                  <h1 class="text-center text-4xl font-extrabold sm:text-5xl lg:text-6xl">
+                    <span class="block text-drkblue">Transforming medical billing </span>
+                  </h1>
+                  <p
+                    class="mt-6 max-w-lg mx-auto text-center text-2xl lg:text-3xl font-extrabold text-white sm:max-w-3xl">
+                    By putting the power into the providers' hands.</p>
+                  <img class="w-1/2 relative mt-12 lg:mt-24 mx-auto bottom-0" src="img/img6.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- This example requires Tailwind CSS v2.0+ -->
+          <section class="py-12 bg-white overflow-hidden md:py-20 lg:py-24">
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <svg
+                class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2"
+                width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-workcation">
+                <title id="svg-workcation">Workcation</title>
+                <defs>
+                  <pattern id="ad119f34-7694-4c31-947f-5c9d249b21f3" x="0" y="0" width="20" height="20"
+                    patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                  </pattern>
+                </defs>
+                <rect width="404" height="404" fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)" />
+              </svg>
+
+              <div class="relative">
+                <img class="mx-auto h-14" src="img/logo.png" alt="Workcation">
+                <blockquote class="mt-10">
+                  <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-drkblue">
+                    <p>By utilising the existing data in a provider's system, Medosync were able to identify LEAKAGES OF
+                      3% in unrealised revenue</p>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- More main page content here... -->
+      </main>
+    </div>
+
+  </section>
+
+
+
+  <selection>
+
+    <!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  const colors = require('tailwindcss/colors')
+  
+  module.exports = {
+    // ...
+    theme: {
+      extend: {
+        colors: {
+          'blue-gray': colors.blueGray,
+        },
+      },
+    },
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+    <div class="bg-white">
+      <div class="relative pb-36 pt-20 ">
+        <div class="absolute inset-0">
+          <img class="w-full h-full object-cover" src="img/img4.jpg" alt="">
+        </div>
+
+        <div
+          class="relative text-center mt-20 max-w-md mx-auto px-4 pb-24 md:pb-32 sm:max-w-3xl sm:px-6 md:mt-32 lg:max-w-7xl lg:px-40">
+          <p class="mt-6 xs:max-w-3xl md:w-full text-xl md:text-4xl text-white">HOSPITALS AREN'T REALISING THEIR MAXIMUM
+            REVENUE DUE TO THE COMPLEXITY OF
+            MEDICAL BILLING.</p>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <section class="-mt-32 xs:max-w-md mx-auto relative z-10 px-4 sm:max-w-3xl sm:px-6 lg:max-w-full lg:px-8"
+        aria-labelledby="contact-heading">
+
+        <div class="grid sm:grid-cols-2 gap-y-20 lg:grid-cols-5 lg:gap-y-0 lg:gap-x-3 sm:gap-x-5 pb-6">
+
+          <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+            <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+              <div class="absolute top-0 p-5 inline-block bg-drkblue rounded-xl shadow-lg transform -translate-y-1/2">
+                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-medium text-drkblue">SILOED SYSTEMS</h3>
+              <p class="mt-4 text-base text-blue-gray-500">Systems don't speak to each other meaning there is a
+                duplication of work.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+            <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+              <div class="absolute top-0 p-5 inline-block bg-drkblue rounded-xl shadow-lg transform -translate-y-1/2">
+
+                <svg class="w-6 h-6 fill-white" version="1.0" xmlns="http://www.w3.org/2000/svg" width="125.000000pt"
+                  height="152.000000pt" viewBox="0 0 125.000000 152.000000" preserveAspectRatio="xMidYMid meet">
+
+                  <g transform="translate(0.000000,152.000000) scale(0.100000,-0.100000)" stroke="none">
+                    <path d="M126 1505 c-50 -18 -92 -59 -111 -109 -14 -36 -15 -120 -13 -656 l3
+                -615 23 -38 c13 -20 43 -48 66 -62 l43 -25 488 0 488 0 43 25 c23 14 53 42 66
+                62 l23 38 3 464 3 465 -233 233 -233 233 -310 0 c-237 -1 -319 -4 -349 -15z
+                m584 -237 c0 -167 14 -211 83 -256 39 -26 47 -27 194 -30 l153 -3 0 -409 c0
+                -225 -3 -416 -6 -425 -17 -43 -40 -45 -509 -45 -469 0 -492 2 -509 45 -3 9 -6
+                287 -6 618 l0 601 22 23 c21 23 22 23 300 23 l278 0 0 -142z m235 -58 c66 -66
+                118 -120 115 -120 -44 -4 -181 -1 -199 5 -13 4 -29 22 -37 41 -15 35 -20 194
+                -6 194 4 0 61 -54 127 -120z" />
+                    <path d="M286 864 c-23 -22 -20 -60 6 -78 33 -24 633 -24 666 0 28 20 30 69 3
+                84 -13 6 -138 10 -340 10 -277 0 -322 -2 -335 -16z" />
+                    <path d="M282 628 c-15 -15 -15 -61 0 -76 17 -17 669 -17 686 0 7 7 12 24 12
+                38 0 14 -5 31 -12 38 -17 17 -669 17 -686 0z" />
+                    <path d="M287 392 c-22 -24 -21 -55 1 -75 17 -15 55 -17 340 -17 348 0 352 1
+                352 55 0 54 -4 55 -354 55 -300 0 -324 -1 -339 -18z" />
+                  </g>
+                </svg>
+              </div>
+              <h3 class="text-xl font-medium text-drkblue">MANUAL PROCESSES</h3>
+              <p class="mt-4 text-base text-blue-gray-500">The billing process involves repetitive tasks that are done
+                manually resulting in human error.</p>
+            </div>
+          </div>
+
+
+          <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+            <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+              <div class="absolute top-0 p-5 inline-block bg-drkblue rounded-xl shadow-lg transform -translate-y-1/2">
+
+                <svg class="w-6 h-6 fill-white" version="1.0" xmlns="http://www.w3.org/2000/svg" width="166.000000pt"
+                  height="151.000000pt" viewBox="0 0 166.000000 151.000000" preserveAspectRatio="xMidYMid meet">
+
+                  <g transform="translate(0.000000,151.000000) scale(0.100000,-0.100000)" stroke="none">
+                    <path d="M865 1480 c-24 -26 -22 -70 3 -90 13 -11 48 -19 94 -23 268 -23 498
+               -227 553 -492 67 -318 -131 -634 -450 -720 -77 -21 -231 -21 -310 0 -149 40
+               -297 152 -375 284 -37 63 -88 206 -77 217 3 3 16 -6 30 -20 52 -52 140 -18
+               123 47 -9 36 -198 217 -227 217 -36 0 -229 -195 -229 -231 0 -62 77 -79 125
+               -29 16 17 31 30 35 30 3 0 11 -30 18 -66 48 -253 244 -476 492 -558 163 -54
+               310 -54 475 -2 113 36 198 89 290 181 124 124 182 238 211 411 66 390 -195
+               767 -589 848 -107 22 -169 21 -192 -4z" />
+                    <path d="M873 1225 c-17 -7 -33 -20 -37 -30 -3 -9 -6 -119 -6 -243 l0 -227
+               -114 -115 c-63 -63 -118 -126 -121 -140 -9 -38 27 -80 68 -80 27 0 51 19 169
+               138 l138 138 0 260 c0 212 -3 263 -15 281 -19 27 -46 33 -82 18z" />
+                  </g>
+                </svg>
+              </div>
+              <h3 class="text-xl font-medium text-drkblue">TIME</h3>
+              <p class="mt-4 text-base text-blue-gray-500">All of this adds up to a significant amount of time just
+                generating the invoice.</p>
+            </div>
+          </div>
+
+
+          <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+            <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+              <div class="absolute top-0 p-5 inline-block bg-drkblue rounded-xl shadow-lg transform -translate-y-1/2">
+
+                <svg class="w-6 h-6 fill-white" version="1.0" xmlns="http://www.w3.org/2000/svg" width="166.000000pt"
+                  height="150.000000pt" viewBox="0 0 166.000000 150.000000" preserveAspectRatio="xMidYMid meet">
+
+                  <g transform="translate(0.000000,150.000000) scale(0.100000,-0.100000)" fill="" stroke="none">
+                    <path d="M85 1481 c-16 -10 -39 -28 -50 -41 -20 -22 -20 -36 -20 -690 l0 -668
+                 25 -27 c53 -56 38 -55 580 -55 473 0 503 1 538 19 66 34 76 65 80 238 2 85 0
+                 153 -5 153 -5 0 -34 -26 -66 -58 l-57 -58 0 -66 c0 -43 -5 -69 -14 -77 -19
+                 -16 -932 -16 -952 0 -12 10 -14 108 -14 600 l0 589 24 15 c20 14 81 15 480 13
+                 393 -3 458 -5 466 -18 5 -8 10 -56 10 -105 l0 -91 66 -64 66 -65 -4 185 c-3
+                 208 -11 236 -78 271 -33 18 -66 19 -540 19 -474 0 -507 -1 -535 -19z" />
+                    <path d="M872 1100 c-16 -16 -32 -41 -35 -56 -10 -54 10 -87 127 -204 l115
+                 -114 -118 -121 c-128 -131 -143 -158 -116 -220 15 -38 67 -75 103 -75 40 0 74
+                 25 187 139 l109 111 121 -119 c70 -70 132 -122 148 -126 39 -10 75 2 108 35
+                 23 22 29 38 29 70 0 59 -16 82 -134 200 l-106 104 120 122 c115 116 120 122
+                 120 163 0 80 -38 120 -114 121 l-49 0 -121 -119 -121 -120 -122 120 -121 119
+                 -50 0 c-43 0 -55 -5 -80 -30z" />
+                  </g>
+                </svg>
+              </div>
+              <h3 class="text-xl font-medium text-drkblue">REJECTIONS</h3>
+              <p class="mt-4 text-base text-blue-gray-500">And numerous rejections from insurers that could have been
+                caught before submission.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:col-span-2 lg:col-span-1 bg-white rounded-2xl shadow-xl">
+            <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+              <div class="absolute top-0 p-5 inline-block bg-drkblue rounded-xl shadow-lg transform -translate-y-1/2">
+
+                <svg class="w-6 h-6 fill-white" version="1.0" xmlns="http://www.w3.org/2000/svg" width="132.000000pt"
+                  height="147.000000pt" viewBox="0 0 132.000000 147.000000" preserveAspectRatio="xMidYMid meet">
+
+                  <g transform="translate(0.000000,147.000000) scale(0.100000,-0.100000)" fill="" stroke="none">
+                    <path d="M345 1357 c-282 -103 -311 -115 -324 -141 -10 -22 -13 -80 -13 -235
+                 0 -229 16 -340 72 -494 71 -192 197 -340 361 -421 171 -85 267 -85 438 0 164
+                 81 290 229 361 421 56 154 73 274 73 499 -1 149 -4 209 -14 230 -13 26 -42 39
+                 -324 141 -171 62 -312 112 -315 112 -3 0 -144 -50 -315 -112z m598 -81 l275
+                 -99 6 -51 c9 -79 7 -252 -4 -346 -45 -365 -227 -614 -502 -684 -51 -13 -65
+                 -13 -116 0 -274 70 -457 319 -502 684 -11 94 -13 267 -4 346 l6 51 277 100
+                 c152 55 279 100 282 99 4 0 130 -46 282 -100z" />
+                    <path d="M555 1111 c-28 -12 -62 -51 -74 -84 -6 -16 -11 -64 -11 -108 0 -75
+                 -1 -79 -22 -79 -56 -1 -68 -37 -68 -200 0 -125 9 -177 33 -192 15 -10 478 -10
+                 493 0 27 18 34 56 34 191 0 158 -8 187 -54 199 l-31 8 -5 90 c-6 95 -13 115
+                 -55 154 -24 23 -36 25 -123 27 -53 2 -106 -1 -117 -6z m183 -87 c21 -14 23
+                 -21 20 -97 l-3 -82 -95 0 -95 0 -3 80 c-3 71 -1 82 18 97 26 21 125 22 158 2z
+                 m-38 -284 c23 -23 26 -62 5 -80 -9 -7 -15 -35 -17 -73 -3 -59 -4 -62 -28 -62
+                 -24 0 -25 3 -28 62 -2 38 -8 66 -17 73 -34 28 -1 100 45 100 11 0 29 -9 40
+                 -20z" />
+                  </g>
+                </svg>
+              </div>
+              <h3 class="text-xl font-medium text-drkblue">SECURITY</h3>
+              <p class="mt-4 text-base text-blue-gray-500">The current process involves important data that needs to be
+                handled in a GDPR compliant manner.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+    </div>
+
+  </selection>
+
+
+
+  <selection>
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="bg-white">
+      <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-36">
+        <p class="text-center text-base font-semibold uppercase text-drkblue tracking-wider">REAL-TIME BILLING MEANS
+          NECESSARY DATA IS CAPTURED THROUGHOUT
+          THE PATIENT JOURNEY AND THE BILL IS READY UPON DISCHARGE.</p>
+        <p class="text-center text-base font-semibold mt-4 text-gray-500 tracking-wider">MedoSync is already working
+          with providers and payers across Ireland</p>
+
+        <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+          <div class="col-span-1 flex justify-center py-4 px-4 bg-gray-50">
+            <img class="" src="img/prov/1-300x121.jpg" alt="">
+          </div>
+          <div class="col-span-1 flex justify-center py-4 px-4 bg-gray-50">
+            <img class="" src="img/prov/2-300x121.jpg" alt="">
+          </div>
+          <div class="col-span-1 flex justify-center py-4 px-4 bg-gray-50">
+            <img class="" src="img/prov/2-300x121.jpg" alt="">
+          </div>
+          <div class="col-span-1 flex justify-center py-4 px-4 bg-gray-50">
+            <img class="" src="img/prov/3-300x121.jpg" alt="">
+          </div>
+          <div class="col-span-1 flex justify-center py-4 px-4 bg-gray-50">
+            <img class="" src="img/prov/4-300x121.jpg" alt="">
+          </div>
+          <div class="col-span-1 flex justify-center py-4 px-4 bg-gray-50">
+            <img class="" src="img/prov/5-300x121.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </selection>
+
+
+
+  <section>
+    <!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+    <div class="bg-white pt-16 lg:py-24">
+      <div class="pb-16 bg-gray-50 shadow-xl lg:pb-0 lg:z-10 lg:relative">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
+          <div class="relative lg:-my-8">
+            <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
+            <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+              <div
+                class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+                <img class="object-cover lg:h-full lg:w-full" src="img/img9.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
+            <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
+              <blockquote class="text-center lg:text-left">
+                <div>
+                  <p class="mt-6 text-4xl font-bold text-lghtblue">SIMPLE PAYMENTS </p>
+                  <p class="mt-6 text-2xl  text-drkblue"> Since January 2021 MedoSync has processed more than <span
+                      class="text-4xl text-lghtblue font-semibold">148</span> per day</p>
+                </div>
+                <footer class="mt-12">
+                  <p class="text-base font-medium text-drkblue hover:cursor-pointer hover:text-lghtblue">Learn more..
+                  </p>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <selection>
+
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="relative bg-white py-20 sm:py-24 ">
+      <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+        <p class=" text-3xl font-extrabold tracking-tight text-drkblue sm:text-4xl">HOW WE HELP PROVIDERS</p>
+        <div class="mt-20 sm:mt-28">
+          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="pt-6">
+              <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                <div class="-mt-6">
+                  <div>
+                    <span class="inline-flex items-center justify-center">
+                      <img src="img/thumbs/1.png" alt="">
+                    </span>
+                  </div>
+                  <h3 class="mt-8 lg:mt-14 text-lg font-medium tracking-tight text-drkblue">INTEGRATES WITH YOUR PAS
+                  </h3>
+                  <p class="mt-5  text-base text-gray-500">MedoSync easily integrates with existing systems - capturing
+                    important information through the patients time in the hospital.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-6">
+              <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                <div class="-mt-6">
+                  <div>
+                    <span class="inline-flex items-center justify-center">
+                      <img src="img/thumbs/2.png" alt="">
+                    </span>
+                  </div>
+                  <h3 class="mt-8 text-lg font-medium tracking-tight text-drkblue">AUTOMATION ELIMINATES ERRORS</h3>
+                  <p class="mt-5 text-base text-gray-500">By being integrated with your systems, we are able to automate
+                    a number of tasks creating efficiencies for your team.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-6">
+              <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                <div class="-mt-6">
+                  <div>
+                    <span class="inline-flex items-center justify-center ">
+                      <img src="img/thumbs/3.png" alt="">
+                    </span>
+                  </div>
+                  <h3 class="mt-8 lg:mt-16 text-lg font-medium tracking-tight text-drkblue">HIGHEST LEVELS OF SECURITY
+                  </h3>
+                  <p class="mt-5 lg:mb-7 text-base text-gray-500">MedoSync is built securely meaning hospitals can be
+                    sure their patients data is safe.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-6">
+              <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                <div class="-mt-6">
+                  <div>
+                    <span class="inline-flex items-center justify-center ">
+                      <img src="img/thumbs/4.png" alt="">
+                    </span>
+                  </div>
+                  <h3 class="mt-8 text-lg font-medium tracking-tight text-drkblue">REAL TIME INSURER INTEGRATION</h3>
+                  <p class="mt-5 text-base text-gray-500">Claims are submitted in real time to insurers with common
+                    errors flagged at the moment of submission meaning fewer delays in getting paid.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-6">
+              <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                <div class="-mt-6">
+                  <div>
+                    <span class="inline-flex items-center justify-center ">
+                      <img src="img/thumbs/5.png" alt="">
+                    </span>
+                  </div>
+                  <h3 class="mt-8 text-lg font-medium tracking-tight text-drkblue">REAL TIME REPORTING</h3>
+                  <p class="mt-5  lg:mb-12 text-base text-gray-500">MedoSync empowers the finance team with the most up
+                    to date financial data.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-6 ">
+              <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                <div class="-mt-6">
+                  <div>
+                    <span class="inline-flex items-center justify-center ">
+                      <img src="img/thumbs/6.png" alt="">
+                    </span>
+                  </div>
+                  <h3 class="mt-8 lg:mt-14 text-lg font-medium tracking-tight text-drkblue">IDENTIFIES LEAKAGES</h3>
+                  <p class="mt-5 lg:mb-12 text-base text-gray-500">MedoSync helps to identify bottlenecks such as human
+                    error or missing signatures.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </selection>
+
+
+
+  <section class="bg-white overflow-hidden">
+    <div class="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+      <svg class="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden" width="784" height="404"
+        fill="none" viewBox="0 0 784 404" aria-hidden="true">
+        <defs>
+          <pattern id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32" x="0" y="0" width="20" height="20"
+            patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="784" height="404" fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)" />
+      </svg>
+
+      <svg class="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2" width="404"
+        height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+        <defs>
+          <pattern id="56409614-3d62-4985-9a10-7ca758a8f4f0" x="0" y="0" width="20" height="20"
+            patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="404" height="784" fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)" />
+      </svg>
+
+      <div class="relative lg:flex lg:items-center">
+        <div class="hidden lg:block lg:flex-shrink-0">
+          <img class="h-64 w-64  xl:h-80 xl:w-80" src="img/img3.png" alt="">
+        </div>
+
+        <div class="relative lg:ml-10">
+          <svg
+            class="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
+            stroke="currentColor" fill="none" viewBox="0 0 144 144" aria-hidden="true">
+            <path stroke-width="2"
+              d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z" />
+          </svg>
+          <blockquote class="relative">
+            <div class="text-2xl leading-9 font-medium text-gray-900">
+              <p>Hospitals are losing 6-9% of their revenue due to leakages in the billing process. MedoSync stops these
+                leakages by creating the invoice in real time and ensures hospitals get paid in full.</p>
+            </div>
+            <footer class="mt-8">
+              <div class="flex">
+                <div class="flex-shrink-0 lg:hidden">
+                  <img class="h-20 w-full" src="img/logo.png" alt="">
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <selection>
+    <!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+    <div class="relative bg-gradient-to-b from-white to-gray-200">
+      <div class="lg:absolute lg:inset-0 ">
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 ">
+          <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="img/4.jpg" alt="">
+        </div>
+      </div>
+      <div class="relative py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:py-32 lg:grid lg:grid-cols-2">
+        <div class="lg:pr-8">
+          <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
+            <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-drkblue">We want to hear more about your
+              challenges</h2>
+            <p class="mt-4 text-lg text-gray-500 sm:mt-3">Please fill in the form and one of our team will be in touch
+            </p>
+            <form action="#" method="POST" class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <div>
+                <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
+                <div class="mt-1">
+                  <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                    class="block w-full shadow-sm sm:text-sm focus:ring-0 focus:border-lghtblue border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div>
+                <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
+                <div class="mt-1">
+                  <input type="text" name="last-name" id="last-name" autocomplete="family-name"
+                    class="block w-full shadow-sm sm:text-sm focus:ring-0 focus:border-lghtblue border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <div class="mt-1">
+                  <input id="email" name="email" type="email" autocomplete="email"
+                    class="block w-full shadow-sm sm:text-sm focus:ring-0 focus:border-lghtblue border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="company" class="block text-sm font-medium text-gray-700">Company</label>
+                <div class="mt-1">
+                  <input type="text" name="company" id="company" autocomplete="organization"
+                    class="block w-full shadow-sm sm:text-sm focus:ring-0 focus:border-lghtblue border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <div class="flex justify-between">
+                  <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+                  <span id="phone-description" class="text-sm text-gray-500">Optional</span>
+                </div>
+                <div class="mt-1">
+                  <input type="text" name="phone" id="phone" autocomplete="tel" aria-describedby="phone-description"
+                    class="block w-full shadow-sm sm:text-sm focus:ring-0 focus:border-lghtblue border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <div class="flex justify-between">
+                  <label for="how-can-we-help" class="block text-sm font-medium text-gray-700">How can we help
+                    you?</label>
+                  <span id="how-can-we-help-description" class="text-sm text-gray-500">Max. 500 characters</span>
+                </div>
+                <div class="mt-1">
+                  <textarea id="how-can-we-help" name="how-can-we-help" aria-describedby="how-can-we-help-description"
+                    rows="4"
+                    class="block w-full shadow-sm sm:text-sm focus:ring-0 focus:border-lghtblue border border-gray-300 rounded-md"></textarea>
+                </div>
+              </div>
+              <div class="text-right sm:col-span-2">
+                <button type="submit"
+                  class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-lghtblue hover:bg-blue-600 focus:outline-none  focus:ring-offset-2 focus:ring-0">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </selection>
+
+
+
+  <section>
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <footer class="bg-gradient-to-b from-gray-200 via-white to-white">
+      <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+        <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Home </a>
+          </div>
+
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Products </a>
+          </div>
+
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Our story </a>
+          </div>
+
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Meet the team </a>
+          </div>
+
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Partners </a>
+          </div>
+        </nav>
+        <div class="mt-8 flex justify-center space-x-6">
+          <a href="#" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Facebook</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <a href="#" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Instagram</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <a href="#" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Twitter</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+            </svg>
+          </a>
+
+          <a href="#" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">GitHub</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <a href="#" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Dribbble</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+        <p class="mt-8 text-center text-base text-gray-500">&copy; MedoSync. Dogpatch Labs, The CHQ Building, Custom
+          House Quay, Dublin 1, Ireland</p>
+      </div>
+    </footer>
+
+  </section>
+
+</body>
+
+</html>
